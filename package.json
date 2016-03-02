@@ -1,9 +1,9 @@
 {
-  "name": "predawn-ui",
+  "name": "nye-ui",
   "theme": "ui",
   "version": "1.0.2",
-  "description": "Predawn UI Theme for Atom",
-  "repository": "https://github.com/jamiewilson/predawn-ui",
+  "description": "nyë UI Theme for Atom - Based onPredawn UI Theme",
+  "repository": "https://github.com/nye/nye-ui",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

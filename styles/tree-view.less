@@ -54,7 +54,8 @@
     }
 
     .header:before {
-      display: none !important;
+      //display: none !important;
+      background: transparent !important;
     }
   }
 
@@ -64,10 +65,20 @@
   }
 
   .selected .icon:before {
-    color: #f18260 !important;
+    color: #56B9C3 !important;
   }
 
   li:not(.list-nested-item) {
+    &.selected {
+      color: white !important;
+
+      &:before {
+        background-color: #282828;
+      }
+    }
+  }
+
+  li.list-nested-item {
     &.selected {
       color: white !important;
 
